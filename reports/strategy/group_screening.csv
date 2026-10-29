@@ -1,0 +1,7 @@
+group_type,group,accounts,eligible_rate,actual_default_rate,eligible_rate_vs_highest
+"sex (1=male, 2=female)",1,3563,0.5568,0.2386,0.9503
+"sex (1=male, 2=female)",2,5437,0.586,0.2099,1.0
+age band,<30,2882,0.5347,0.2245,0.8798
+age band,30-39,3332,0.6077,0.1984,1.0
+age band,40-49,1958,0.5878,0.239,0.9673
+age band,50+,828,0.5471,0.2597,0.9002

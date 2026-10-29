@@ -1,0 +1,5 @@
+X (loss per default / profit per good),break_even_default_prob,theory_approval_rate,simulated_best_approval_rate,bootstrap_5th_to_95th,bad_rate_among_approved,share_of_defaults_declined,share_of_good_declined,ev_per_1000_at_best,ev_per_1000_at_theory_cutoff,theory_cutoff_as_pct_of_best_ev
+3,0.25,0.739,0.76,71% to 78%,0.1275,0.562,0.149,372.4,368.4,0.989
+5,0.167,0.574,0.46,41% to 58%,0.0877,0.818,0.461,218.0,209.8,0.962
+8,0.111,0.329,0.32,25% to 40%,0.066,0.905,0.616,130.0,126.4,0.973
+12,0.077,0.186,0.2,15% to 25%,0.0489,0.956,0.756,72.9,69.2,0.95

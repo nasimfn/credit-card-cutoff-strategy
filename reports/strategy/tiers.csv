@@ -1,0 +1,4 @@
+tier,accounts,actual_default_rate,avg_predicted,share_of_accounts,share_of_all_defaults
+A: eligible in every scenario (p < 7.7%),1676,0.0483,0.0599,0.1862,0.0407
+B: depends on the cost ratio (7.7% to 25.0%),4976,0.1513,0.1447,0.5529,0.3782
+C: not eligible in any scenario (p >= 25.0%),2348,0.4928,0.4924,0.2609,0.5811
