@@ -1,0 +1,4 @@
+tier,accounts,pct_of_accounts,actual_default_rate,pct_of_all_defaults
+A: eligible in every scenario,1676,18.6,0.0483,4.1
+B: depends on cost ratio,4976,55.3,0.1513,37.8
+C: not eligible in any scenario,2348,26.1,0.4928,58.1

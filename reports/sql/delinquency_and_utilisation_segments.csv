@@ -1,0 +1,13 @@
+worst_delay,latest_utilisation,accounts,pct_of_accounts,default_rate
+0: never late,under 30%,10395,34.6,0.1155
+0: never late,30% to 70%,3542,11.8,0.0819
+0: never late,70% or more,5994,20.0,0.1406
+1: one month late,under 30%,1663,5.5,0.2514
+1: one month late,30% to 70%,9,0.0,0.2222
+1: one month late,70% or more,17,0.1,0.1176
+2: two months late,under 30%,2399,8.0,0.3618
+2: two months late,30% to 70%,1828,6.1,0.4781
+2: two months late,70% or more,2960,9.9,0.4689
+3+: three or more months late,under 30%,334,1.1,0.6617
+3+: three or more months late,30% to 70%,307,1.0,0.6482
+3+: three or more months late,70% or more,552,1.8,0.5978
