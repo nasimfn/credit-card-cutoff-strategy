@@ -69,6 +69,8 @@ def main():
          "max_delay, n_delinquent_months, util_latest, util_avg, pay_to_bill_ratio, bill_trend "
          "(negative bills treated as 0 in utilisation; payment ratio capped at 1.5)")
 
+    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUT_FILE, index=False)
     lines = ["# Cleaning Log", "", "| Step | Rows before | Rows after | Detail |", "|---|---|---|---|"]
     for s, b, a, d in log:

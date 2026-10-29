@@ -81,6 +81,8 @@ def main():
     out = df.loc[id_te, ["ID", TARGET, "LIMIT_BAL", "SEX", "AGE", "EDUCATION", "MARRIAGE", "PAY_1", "max_delay",
                          "util_latest", "BILL_AMT1"]].copy()
     out["p_logistic"], out["p_gbm"] = probs["logistic"], probs["gradient_boosting"]
+    SCORED.parent.mkdir(parents=True, exist_ok=True)
+    METRICS_MD.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(SCORED, index=False)
 
     cal_l = calibration_table(y_te, probs["logistic"])
