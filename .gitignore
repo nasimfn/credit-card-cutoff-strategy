@@ -1,0 +1,9 @@
+# Data (downloaded or recreated by the scripts)
+data/raw/
+data/processed/
+reports/portfolio.db
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
