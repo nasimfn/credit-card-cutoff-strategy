@@ -128,6 +128,13 @@ python src/07_data_dictionary.py
 python src/08_summary_pdf.py
 ```
 
+**Reproducibility check.** The repository was cloned fresh, every generated output was deleted, and all nine
+scripts were run in order from the instructions above. They completed without errors, and 16 output files (the QA
+summary and issue log, cleaning log, model metrics, strategy tables, SQL results and data dictionary) were
+byte-identical to the originals. The charts and PDF were regenerated but not compared byte for byte. Tested with
+Python 3.12.3, pandas 3.0.2, scikit-learn 1.8.0, numpy 2.4.4, matplotlib 3.10.8. Package versions are not pinned, so other versions could change the model numbers slightly. The download
+depends on the public GitHub copy of the data staying available.
+
 ## Repository layout
 
 ```
