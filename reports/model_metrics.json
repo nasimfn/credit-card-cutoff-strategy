@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "seed": 42,
+    "test_size": 0.3,
+    "features": [
+      "LIMIT_BAL",
+      "PAY_1",
+      "PAY_2",
+      "PAY_3",
+      "PAY_4",
+      "PAY_5",
+      "PAY_6",
+      "BILL_AMT1",
+      "BILL_AMT2",
+      "BILL_AMT3",
+      "BILL_AMT4",
+      "BILL_AMT5",
+      "BILL_AMT6",
+      "PAY_AMT1",
+      "PAY_AMT2",
+      "PAY_AMT3",
+      "PAY_AMT4",
+      "PAY_AMT5",
+      "PAY_AMT6",
+      "max_delay",
+      "n_delinquent_months",
+      "util_latest",
+      "util_avg",
+      "pay_to_bill_ratio",
+      "bill_trend"
+    ]
+  },
+  "results": {
+    "logistic": {
+      "auc": 0.7530590109480392,
+      "pr_auc": 0.5036529576985821,
+      "ks": 0.3954766774353903,
+      "brier": 0.14202565504318276,
+      "cv_auc_mean": 0.760413807083747,
+      "cv_auc_std": 0.010599226778184088
+    },
+    "gradient_boosting": {
+      "auc": 0.7780385540037889,
+      "pr_auc": 0.5521100553992564,
+      "ks": 0.41794975664136785,
+      "brier": 0.1357233479662078,
+      "cv_auc_mean": 0.7854860158373863,
+      "cv_auc_std": 0.010268609462416334
+    },
+    "baseline_latest_repayment_status": {
+      "auc": 0.6833310175429897
+    },
+    "baseline_max_delay": {
+      "auc": 0.7046002201804253
+    }
+  }
+}
